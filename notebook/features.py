@@ -18,3 +18,24 @@ features = {
     "Online Backup_Yes": 0.08225486893814218,
     "Device Protection_Yes": 0.06615979128029068
 }
+
+# Defining the SelectKBest features dictionary
+features_chi = {
+    "Tenure Months": 3944.5915982548745,
+    "Monthly Charges": 672.5966176277434,
+    "Contract_Two year": 95.71249076322883,
+    "Internet Service_Fiber optic": 70.65102622184062,
+    "Payment Method_Electronic check": 68.91434417089039,
+    "Dependents_Yes": 59.62362953196185,
+    "Internet Service_No": 55.233620653096324,
+    "Contract_One year": 42.815938041865806,
+    "Online Security_Yes": 30.204727582920942,
+    "Partner_Yes": 26.13180201550287,
+    "Tech Support_Yes": 25.452429436960305,
+    "Senior Citizen_Yes": 22.957752547582103,
+    "Payment Method_Credit card (automatic)": 15.44978962893172,
+    "Paperless Billing_Yes": 15.065953097041712,
+    "Payment Method_Mailed check": 12.64575904307188,
+    "Device Protection_Yes": 12.432604662565238,
+    "Online Backup_Yes": 11.361871638991278
+}
