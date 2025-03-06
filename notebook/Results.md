@@ -15,27 +15,27 @@
 
 
 ### **DecisionTreeClassifier**
-<center>
-The Decision Tree Classifier was chosen to address the unbalanced dataset that we have.
+>   <center>
+    The Decision Tree Classifier was chosen to address the unbalanced dataset that we have.
 
-Various scoring methods and weights were tested to address the issue of the unbalanced dataset. However, the most suited scoring method that was found during the process is the 'balanced_accuracy'
+    Various scoring methods and weights were tested to address the issue of the unbalanced dataset. However, the most suited scoring method that was found during the process is the 'balanced_accuracy'
 
-| Feature                         | Importance |
-|--------------------------------|:----------:|
-| Contract_Two year            | 0.354717   |
-| Contract_One year            | 0.209229   |
-| Tenure Months                | 0.099239   |
-| Dependents_Yes               | 0.093631   |
-| Internet Service_Fiber optic  | 0.092869   |
-| Latitude                      | 0.035499   |
-| Streaming Movies_Yes         | 0.033793   |
-| Monthly Charges              | 0.027313   |
-| Longitude                    | 0.014449   |
-| Internet Service_No          | 0.013449   |
-| Phone Service_Yes            | 0.012041   |
-| Payment Method_Electronic check | 0.006196   |
-| Online Security_Yes          | 0.003894   |
-| Senior Citizen_Yes           | 0.003683   |
+    | Feature                         | Importance |
+    |--------------------------------|:----------:|
+    | Contract_Two year            | 0.354717   |
+    | Contract_One year            | 0.209229   |
+    | Tenure Months                | 0.099239   |
+    | Dependents_Yes               | 0.093631   |
+    | Internet Service_Fiber optic  | 0.092869   |
+    | Latitude                      | 0.035499   |
+    | Streaming Movies_Yes         | 0.033793   |
+    | Monthly Charges              | 0.027313   |
+    | Longitude                    | 0.014449   |
+    | Internet Service_No          | 0.013449   |
+    | Phone Service_Yes            | 0.012041   |
+    | Payment Method_Electronic check | 0.006196   |
+    | Online Security_Yes          | 0.003894   |
+    | Senior Citizen_Yes           | 0.003683   |
 </center>
 ---
 # Scores of the various classification models
