@@ -173,7 +173,7 @@ In addition, the final decision tree classifier had a depth of 6.
 |---------------|:---------:|:------:|:-------:|:-------:|
 | **Class 0**   | 0.83     | 0.81   | 0.82    | 783     |
 | **Class 1**   | 0.49     | 0.51   | 0.50    | 274     |
-| **Accuracy**  | -        | 0.74   | -       | 1057    |
+| **Accuracy**  | -        | -   | 0.74        | 1057    |
 | **Macro Avg** | 0.66     | 0.66   | 0.66    | 1057    |
 | **Weighted Avg** | 0.74     | 0.74   | 0.74    | 1057    |
 
@@ -190,14 +190,13 @@ In addition, the final decision tree classifier had a depth of 6.
 </br></br>
 
 **DecisionTreeClassifier** (scoring=balanced_accuracy, class_weights={0: 0.5, 1: 1.5})
-|               | Precision | Recall | F1-Score | Support |
-|---------------|----------|-------|---------|--------|
-| Class 0       | 0.93     | 0.67  | 0.78    | 783    |
-| Class 1       | 0.48     | 0.86  | 0.61    | 274    |
-| Accuracy      | -        | 0.72  | -       | 1057   |
-| Macro Avg     | 0.71     | 0.77  | 0.70    | 1057   |
-| Weighted Avg  | 0.82     | 0.72  | 0.74    | 1057   |
-
+| Metric       | Precision | Recall | F1-Score | Support |
+|-------------|:---------:|:------:|:-------:|:-------:|
+| **Class 0** | 0.93     | 0.72   | 0.81    | 538     |
+| **Class 1** | 0.47     | 0.83   | 0.60    | 166     |
+| **Accuracy**| -        | -      | 0.74    | 704     |
+| **Macro Avg** | 0.70    | 0.77   | 0.71    | 704     |
+| **Weighted Avg** | 0.82 | 0.74   | 0.76    | 704     |
 </br></br>
 
 ---
@@ -236,12 +235,13 @@ We were not able to provide a better model than the pre-existing model used to p
 
 </center>
 
-| Metric       | Class 0 | Class 1 | Accuracy | Macro Avg | Weighted Avg |
-|--------------|:-------:|:-------:|:--------:|:---------:|:------------:|
-| **Precision**| 0.93    | 0.47    | -        | 0.70      | 0.82         |
-| **Recall**   | 0.72    | 0.83    | -        | 0.77      | 0.74         |
-| **F1-Score** | 0.81    | 0.60    | 0.74     | 0.71      | 0.76         |
-| **Support**  | 538     | 166     | 704      | 704       | 704          |
+| Metric       | Precision | Recall | F1-Score | Support |
+|-------------|:---------:|:------:|:-------:|:-------:|
+| **Class 0** | 0.93     | 0.72   | 0.81    | 538     |
+| **Class 1** | 0.47     | 0.83   | 0.60    | 166     |
+| **Accuracy**| -        | -      | 0.74    | 704     |
+| **Macro Avg** | 0.70    | 0.77   | 0.71    | 704     |
+| **Weighted Avg** | 0.82 | 0.74   | 0.76    | 704     |
 
 
 </br></br>
@@ -251,13 +251,13 @@ We were not able to provide a better model than the pre-existing model used to p
 
 </center>
 
-| Metric       | Class 0 | Class 1 | Accuracy | Macro Avg | Weighted Avg |
-|--------------|:-------:|:-------:|:--------:|:---------:|:------------:|
-| **Precision**| 0.86    | 0.66    | -        | 0.76      | 0.81         |
-| **Recall**   | 0.90    | 0.57    | -        | 0.73      | 0.81         |
-| **F1-Score** | 0.88    | 0.61    | 0.81     | 0.74      | 0.81         |
-| **Support**  | 783     | 274     | 1057     | 1057      | 1057         |
-
+| Metric       | Precision | Recall | F1-Score | Support |
+|-------------|:---------:|:------:|:-------:|:-------:|
+| **Class 0** | 0.86     | 0.90   | 0.88    | 783     |
+| **Class 1** | 0.66     | 0.57   | 0.61    | 274     |
+| **Accuracy**| -        | -      | 0.81    | 1057    |
+| **Macro Avg** | 0.76    | 0.73   | 0.74    | 1057    |
+| **Weighted Avg** | 0.81 | 0.81   | 0.81    | 1057    |
 
 </br></br>
 <center>
@@ -266,12 +266,13 @@ We were not able to provide a better model than the pre-existing model used to p
 
 </center>
 
-| Metric       | Class 0 | Class 1 | Accuracy | Macro Avg | Weighted Avg |
-|--------------|:-------:|:-------:|:--------:|:---------:|:------------:|
-| **Precision**| 1.00    | 0.37    | -        | 0.69      | 0.85         |
-| **Recall**   | 0.49    | 1.00    | -        | 0.74      | 0.61         |
-| **F1-Score** | 0.65    | 0.55    | 0.61     | 0.60      | 0.63         |
-| **Support**  | 538     | 166     | 704      | 704       | 704          |
+| Metric       | Precision | Recall | F1-Score | Support |
+|-------------|:---------:|:------:|:-------:|:-------:|
+| **Class 0** | 1.00     | 0.49   | 0.65    | 538     |
+| **Class 1** | 0.37     | 1.00   | 0.55    | 166     |
+| **Accuracy**| -        | -      | 0.61    | 704     |
+| **Macro Avg** | 0.69    | 0.74   | 0.60    | 704     |
+| **Weighted Avg** | 0.85 | 0.61   | 0.63    | 704     |
 
 </br></br>
 
