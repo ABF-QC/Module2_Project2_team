@@ -74,6 +74,7 @@ In K-Nearest Neighbors (KNN), determining feature importance is not straightforw
 |-----------------------|-----------------|
 | classifier__n_neighbors | n_neighbors=14, p=2.0 |
 | classifier__weights    | uniform         |
+| Best score       |        0.7767     |
 
 
 ### **Random Forest**
