@@ -12,6 +12,15 @@ The churn reason were analyzed to pinpoint the factors that pushed a client to l
 
 ![Churn Reason Distribution](../graph/ChurnReason.png)
 
+
+
+By looking at the correlation between the various columns, we noticed that all the categorical columns that contains a category 'No internet service' is in fact a perfect replica of the columns 'Internet Service' with the category value of 'No'.
+
+Therefore, all categorical columns containing the category 'No internet service' were cleaned, with the exception of the column 'Internet Service'.
+
+
+![Correlation Heatmap](../graph/Correlation_heatmap_all.png)
+
 </br></br>
 
 ---
