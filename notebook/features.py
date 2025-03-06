@@ -16,7 +16,14 @@ features = {
     "Payment Method_Credit card (automatic)": 0.13430175066262853,
     "Payment Method_Mailed check": 0.0916828385884294,
     "Online Backup_Yes": 0.08225486893814218,
-    "Device Protection_Yes": 0.06615979128029068
+    "Device Protection_Yes": 0.06615979128029068,
+    "Streaming TV_Yes": 0.06322774611875867,
+    "Streaming Movies_Yes": 0.0613815480151869,
+    "Multiple Lines_Yes": 0.04010212769982595,
+    "Phone Service_Yes": 0.01194198002900663,
+    "Gender_Male": 0.008612095078997399,
+    "Longitude": 0.0045938114694289425,
+    "Latitude": 0.0033844365616286496
 }
 
 # Defining the SelectKBest features dictionary
@@ -37,5 +44,12 @@ features_chi = {
     "Paperless Billing_Yes": 15.065953097041712,
     "Payment Method_Mailed check": 12.64575904307188,
     "Device Protection_Yes": 12.432604662565238,
-    "Online Backup_Yes": 11.361871638991278
+    "Online Backup_Yes": 11.361871638991278,
+    "Streaming TV_Yes": 1.827273389492889,
+    "Streaming Movies_Yes": 1.043163428074717,
+    "Phone Service_Yes": 0.7729225247948089,
+    "Gender_Male": 0.6714928405032932,
+    "Multiple Lines_Yes": 0.2403658623029959,
+    "Latitude": 0.0029911380863105277,
+    "Longitude": 0.0015698975784976961
 }

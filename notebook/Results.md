@@ -190,13 +190,13 @@ In addition, the final decision tree classifier had a depth of 6.
 </br></br>
 
 **DecisionTreeClassifier** (scoring=balanced_accuracy, class_weights={0: 0.5, 1: 1.5})
-| Metric       | Precision | Recall | F1-Score | Support |
-|-------------|:---------:|:------:|:-------:|:-------:|
-| **Class 0** | 0.93     | 0.72   | 0.81    | 538     |
-| **Class 1** | 0.47     | 0.83   | 0.60    | 166     |
-| **Accuracy**| -        | -      | 0.74    | 704     |
-| **Macro Avg** | 0.70    | 0.77   | 0.71    | 704     |
-| **Weighted Avg** | 0.82 | 0.74   | 0.76    | 704     |
+|               | Precision | Recall | F1-Score | Support |
+|---------------|----------|-------|---------|--------|
+| Class 0       | 0.93     | 0.67  | 0.78    | 783    |
+| Class 1       | 0.48     | 0.86  | 0.61    | 274    |
+| Accuracy      | -        | - | 0.72        | 1057   |
+| Macro Avg     | 0.71     | 0.77  | 0.70    | 1057   |
+| Weighted Avg  | 0.82     | 0.72  | 0.74    | 1057   |
 </br></br>
 
 ---
@@ -253,11 +253,11 @@ We were not able to provide a better model than the pre-existing model used to p
 
 | Metric       | Precision | Recall | F1-Score | Support |
 |-------------|:---------:|:------:|:-------:|:-------:|
-| **Class 0** | 0.86     | 0.90   | 0.88    | 783     |
-| **Class 1** | 0.66     | 0.57   | 0.61    | 274     |
-| **Accuracy**| -        | -      | 0.81    | 1057    |
-| **Macro Avg** | 0.76    | 0.73   | 0.74    | 1057    |
-| **Weighted Avg** | 0.81 | 0.81   | 0.81    | 1057    |
+| **Class 0** | 0.86     | 0.91   | 0.88    | 538     |
+| **Class 1** | 0.64     | 0.50   | 0.56    | 166     |
+| **Accuracy**| -        | -      | 0.82    | 704     |
+| **Macro Avg** | 0.75    | 0.71   | 0.72    | 704     |
+| **Weighted Avg** | 0.80 | 0.82   | 0.81    | 704     |
 
 </br></br>
 <center>
