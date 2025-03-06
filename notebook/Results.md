@@ -1,11 +1,19 @@
 ---
-Dataset
+# Dataset
 ---
 The most stricking characteristic of the datset is that it is unbalanced.
 
 ![Dataset Distribution](../graph/Dataset_ditribution.png)
 
+---
+# Analysis
+---
+The churn reason were analyzed to pinpoint the factors that pushed a client to leave the company.
+
+![Churn Reason Distribution](../graph/Churn_Reason.png)
+
 </br></br>
+
 ---
 # Our models
 ---
@@ -49,6 +57,7 @@ The decision tree was build with 24 features. However, the most important featur
 In addition, the final decision tree classifier had a depth of 6.
 
 </br></br>
+
 ---
 # Scores of the various classification models
 ---
@@ -178,6 +187,7 @@ We were not able to provide a better model than the pre-existing model used to p
 | **F1-Score** | 0.65    | 0.55    | 0.61     | 0.60      | 0.63         |
 | **Support**  | 538     | 166     | 704      | 704       | 704          |
 </br></br>
+
 ---
 # Conclusion
 ---
