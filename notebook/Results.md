@@ -53,6 +53,8 @@ The features used to build the logistic regression model are the 5 most correlat
 
 ### **K-Nearest Neighbor
 
+In K-Nearest Neighbors (KNN), determining feature importance is not straightforward because KNN is a distance-based algorithm rather than a model that assigns explicit weights to features like decision trees or linear regression.
+
 #### Model Accuracy
 | Metric               | Score  |
 |----------------------|--------|
