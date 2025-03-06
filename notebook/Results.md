@@ -10,7 +10,7 @@ The most stricking characteristic of the datset is that it is unbalanced.
 ---
 The churn reason were analyzed to pinpoint the factors that pushed a client to leave the company.
 
-![Churn Reason Distribution](../graph/Churn_Reason.png)
+![Churn Reason Distribution](../graph/ChurnReason.png)
 
 </br></br>
 
