@@ -13,7 +13,7 @@ The churn reason were analyzed to pinpoint the factors that pushed a client to l
 ![Churn Reason Distribution](../graph/ChurnReason.png)
 
 
-
+</br></br>
 By looking at the correlation between the various columns, we noticed that all the categorical columns that contains a category 'No internet service' is in fact a perfect replica of the columns 'Internet Service' with the category value of 'No'.
 
 Therefore, all categorical columns containing the category 'No internet service' were cleaned, with the exception of the column 'Internet Service'.
@@ -195,6 +195,7 @@ We were not able to provide a better model than the pre-existing model used to p
 | **Recall**   | 0.49    | 1.00    | -        | 0.74      | 0.61         |
 | **F1-Score** | 0.65    | 0.55    | 0.61     | 0.60      | 0.63         |
 | **Support**  | 538     | 166     | 704      | 704       | 704          |
+
 </br></br>
 
 ---
