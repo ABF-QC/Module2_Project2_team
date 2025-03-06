@@ -53,19 +53,19 @@ The features used to build the logistic regression model are the 5 most correlat
 
 ### **K-Nearest Neighbor
 
-# K-Fold Cross Validation
+#### K-Fold Cross Validation
 | Metric                         | Score  |
 |--------------------------------|--------|
 | Average cross-validation score | 0.7416 |
 | Lowest cross-validation score  | 0.7221 |
 | Highest cross-validation score | 0.7627 |
 
-# Model Accuracy
+#### Model Accuracy
 | Metric               | Score  |
 |----------------------|--------|
 | Model accuracy score | 0.7370 |
 
-# GridSearchCV Best Parameters
+#### GridSearchCV Best Parameters
 | Hyperparameter         | Best Value       |
 |-----------------------|-----------------|
 | classifier__n_neighbors | n_neighbors=14, p=2.0 |
