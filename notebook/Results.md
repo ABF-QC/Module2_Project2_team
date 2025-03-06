@@ -53,9 +53,60 @@ The features used to build the logistic regression model are the 5 most correlat
 
 ### **K-Nearest Neighbor
 
+### K-Fold Cross Validation
+| Metric                         | Score  |
+|--------------------------------|--------|
+| Average cross-validation score | 0.7416 |
+| Lowest cross-validation score  | 0.7221 |
+| Highest cross-validation score | 0.7627 |
+
+### Model Accuracy
+| Metric               | Score  |
+|----------------------|--------|
+| Model accuracy score | 0.7370 |
+
+### GridSearchCV Best Parameters
+| Hyperparameter         | Best Value       |
+|-----------------------|-----------------|
+| classifier__n_neighbors | n_neighbors=14, p=2.0 |
+| classifier__weights    | uniform         |
+
 
 ### **Random Forest**
+Understanding which features impact customer churn is crucial for improving retention strategies. The table below displays the **feature importance scores** from a trained **Random Forest model**. These scores indicate how much each feature contributes to predicting whether a customer will churn.
 
+ **Tenure Months (0.168)** is the most important factor, meaning customers who have been with the company longer are less likely to churn.
+ **Monthly Charges (0.143)** is also significant, so pricing plays a key role in retention.
+ Features like **Internet Service Type, Contract Type** also contribute to churn prediction.
+ **Demographic factors like gender and senior citizenship** play a smaller role.
+
+### **Feature Importance for Churn Prediction**
+| **Feature**                                  | **Importance Score** |
+|---------------------------------------------|--------------------|
+| Tenure Months                               | 0.168757          |
+| Monthly Charges                             | 0.143493          |
+| Latitude                                    | 0.121566          |
+| Longitude                                   | 0.119230          |
+| Internet Service_Fiber optic                | 0.050034          |
+| Contract_Two year                           | 0.041809          |
+| Payment Method_Electronic check             | 0.035338          |
+| Dependents_Yes                              | 0.034666          |
+| Contract_One year                           | 0.026356          |
+| Gender_Male                                 | 0.023360          |
+| Partner_Yes                                 | 0.022789          |
+| Paperless Billing_Yes                       | 0.021448          |
+| Online Security_Yes                         | 0.021020          |
+| Tech Support_Yes                            | 0.020890          |
+| Online Backup_Yes                           | 0.019128          |
+| Senior Citizen_Yes                          | 0.018984          |
+| Multiple Lines_Yes                          | 0.017637          |
+| Device Protection_Yes                       | 0.017438          |
+| Streaming Movies_Yes                        | 0.016733          |
+| Streaming TV_Yes                            | 0.015196          |
+| Internet Service_No                         | 0.014582          |
+| Payment Method_Mailed check                 | 0.011278          |
+| Payment Method_Credit card (automatic)      | 0.011104          |
+| Phone Service_Yes                           | 0.007164          |
 
 
 ### **DecisionTreeClassifier**
@@ -97,6 +148,7 @@ In addition, the final decision tree classifier had a depth of 6.
      **Recall**: The proportion of true positive predictions out of all actual positive instances.</br>
      **F1-score**: The harmonic mean of precision and recall, balancing both metrics.</br>
      **Support**: The number of actual occurrence</br>
+     
 
 ## Results
 
