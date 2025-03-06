@@ -1,7 +1,7 @@
-# Classification model to predict if a client will be leaving the telecom company
+# Classification model - Predicting if a client will be leaving the telecom company
 
 ## Objective
-The goal is to explore 3 different classification models to predict if a client will be leaving a fictional telcom company 'churning'. A thorough analysis will be performed in order to select one model that predict the churning the most accurately. The most accurate model will tested against the fictional telecom company's model.
+The goal is to explore 3 different classification models to predict if a client will be leaving a fictional telcom company 'churning'. A thorough analysis will be performed in order to select one model that predict the churning the most accurately. The most accurate model will be tested against the fictional telecom company's model.
 
 
 ### Data source
@@ -35,24 +35,25 @@ The investigation of the churn value with all the type of data available in the 
 ---
 ### Step 3 : Feature Engeneering
 
-Most classification models can only accept numeric values. Therefore, feature engineered is a crucial step to transform categorical columns into numerical columns.
+Most classification models can only accept numeric values. Therefore, feature engineered is a crucial step to transform categorical columns into numerical columns.  The featured engineered data can be found here [Engineered Dataset](data/churn_cleaned_featEng.xlsx)
 
-In addition, this is where we will be finding the correlation of the predictors with 'Churn Value' and trying to see which predictors are the best for our classification model. Two methods will be use and compared to find the best predictors:
+In addition, this is where we will be finding the correlation of the predictors with 'Churn Value' and trying to see which predictors are the best for our classification model. 
+
+Two methods will be use and compared to find the best predictors:
 1. Retaining the highest correlated data in regards of Churn Value
 2. Using SelectKBest from the Scikit Learn module to find the best predictors
 
 The best predictors will be used to find the best suitable classification model for the Logistic Regression model only. 
 
 ---
-### Step 4 : Testing Regression Models
+### Step 4 : Classification Models
 
 Four classification models will be compare. Here are the three types of classification model we will be trying.
 
-Different tools used to build the different model.
-1. A Logistic Regression model
-2. A K-Nearest Neighbor model 
-3. A Random Forest model
-4. A Decision Tree Classifier model
+1. Logistic Regression model
+2. K-Nearest Neighbor model 
+3. Random Forest model
+4. Decision Tree Classifier model
 
 All modules originate from the SciKit Learn module.
 
@@ -60,30 +61,27 @@ All modules originate from the SciKit Learn module.
 ### Step 5 : Validation of the Regression Models
 A simple cross-validation technique, "The Train - Test Split", was used to evaluate our models performance.
 </br>
-Each model was train on 70% of the dataset, while it was tested on 15% of the dataset and validated on the remaining 15% of the dataset.
+Each model was train on 70% of the dataset, while it was tested on 15% of the dataset. Only two selected models (Random Forest model, Decision Tree Classifier) were validated on the remaining 15% of the dataset.
 </br>
 </br>
 The following performance score were calculated for each models :
 
 **Precision**: The proportion of true positive predictions out of all positive predictions.
-</br>
+</br></br>
 **Recall**: The proportion of true positive predictions out of all actual positive instances.
-</br>
+</br></br>
 **F1-score**: The harmonic mean of precision and recall, balancing both metrics.
-</br>
+</br></br>
 **Support**: The number of actual occurrence.
-</br>
+</br></br>
 **Accuracy**: The number of all correct predictions divided by the total number of the dataset.
-</br>
+</br></br>
 **balanced_accuracy**: The arithmetic mean of sensitivity and specificity, and it is used when dealing with imbalanced data.
-</br>
+</br></br>
 
 ---
 ### Step 6 : Validation of the selected Classification Models
-
-
 ---
-## Results
 More detailed results can be found here [Results](Notebook/Results.md)
 
 
@@ -151,10 +149,7 @@ We were not able to provide a better model than the pre-existing model used to p
 
 </br></br>
 
----
-# Conclusion
----
-We learned a valuable lesson.  that a model with the most accuracy does not always provide the best forecast.
+
 
 
     
