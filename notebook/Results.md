@@ -1,4 +1,11 @@
+---
+Dataset
+---
+The most stricking characteristic of the datset is that it is unbalanced.
 
+![Dataset Distribution](../graph/Dataset_ditribution.png)
+
+</br></br>
 ---
 # Our models
 ---
@@ -15,28 +22,33 @@
 
 
 ### **DecisionTreeClassifier**
->   <center>
-    The Decision Tree Classifier was chosen to address the unbalanced dataset that we have.
 
-    Various scoring methods and weights were tested to address the issue of the unbalanced dataset. However, the most suited scoring method that was found during the process is the 'balanced_accuracy'
+The Decision Tree Classifier was chosen to address the unbalanced dataset that we have.
 
-    | Feature                         | Importance |
-    |--------------------------------|:----------:|
-    | Contract_Two year            | 0.354717   |
-    | Contract_One year            | 0.209229   |
-    | Tenure Months                | 0.099239   |
-    | Dependents_Yes               | 0.093631   |
-    | Internet Service_Fiber optic  | 0.092869   |
-    | Latitude                      | 0.035499   |
-    | Streaming Movies_Yes         | 0.033793   |
-    | Monthly Charges              | 0.027313   |
-    | Longitude                    | 0.014449   |
-    | Internet Service_No          | 0.013449   |
-    | Phone Service_Yes            | 0.012041   |
-    | Payment Method_Electronic check | 0.006196   |
-    | Online Security_Yes          | 0.003894   |
-    | Senior Citizen_Yes           | 0.003683   |
-</center>
+Various scoring methods and weights were tested to address the issue of the unbalanced dataset. However, the most suited scoring method that was found during the process is the 'balanced_accuracy'. The best weights found was {0:0.5, 1:1.5}.
+
+The decision tree was build with 24 features. However, the most important features are :
+
+| Feature                         | Importance |
+|--------------------------------|:----------:|
+| Contract_Two year            | 0.354717   |
+| Contract_One year            | 0.209229   |
+| Tenure Months                | 0.099239   |
+| Dependents_Yes               | 0.093631   |
+| Internet Service_Fiber optic  | 0.092869   |
+| Latitude                      | 0.035499   |
+| Streaming Movies_Yes         | 0.033793   |
+| Monthly Charges              | 0.027313   |
+| Longitude                    | 0.014449   |
+| Internet Service_No          | 0.013449   |
+| Phone Service_Yes            | 0.012041   |
+| Payment Method_Electronic check | 0.006196   |
+| Online Security_Yes          | 0.003894   |
+| Senior Citizen_Yes           | 0.003683   |
+
+In addition, the final decision tree classifier had a depth of 6.
+
+</br></br>
 ---
 # Scores of the various classification models
 ---
