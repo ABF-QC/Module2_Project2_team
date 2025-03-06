@@ -15,7 +15,7 @@
 
 
 ### **DecisionTreeClassifier**
-
+<center>
 The Decision Tree Classifier was chosen to address the unbalanced dataset that we have.
 
 Various scoring methods and weights were tested to address the issue of the unbalanced dataset. However, the most suited scoring method that was found during the process is the 'balanced_accuracy'
@@ -36,7 +36,7 @@ Various scoring methods and weights were tested to address the issue of the unba
 | Payment Method_Electronic check | 0.006196   |
 | Online Security_Yes          | 0.003894   |
 | Senior Citizen_Yes           | 0.003683   |
-
+</center>
 ---
 # Scores of the various classification models
 ---
