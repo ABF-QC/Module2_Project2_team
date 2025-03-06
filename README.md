@@ -5,7 +5,7 @@ The goal is to explore 3 different classification models to predict if a client 
 
 
 ### Data source
-Here is the fictional data source [dataset](churn.xlsx) used and more info about the dataset can found here:
+Here is the fictional data source [dataset](data/churn.xlsx) used and more info about the dataset can found here:
 
 - [ibm](https://community.ibm.com/community/user/businessanalytics/blogs/steven-macko/2019/07/11/telco-customer-churn-1113)
 
