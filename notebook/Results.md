@@ -38,6 +38,17 @@ Therefore, all categorical columns containing the category 'No internet service'
 
 ### **Logistic Regression**
 
+The best parameters for the Logistic Regression model are {'C': 100, 'max_iter': 10000, 'penalty': 'l1', 'solver': 'liblinear', 'tol': 0.01}.
+
+The features used to build the logistic regression model are the 5 most correlated columns with the Churn Value column.
+
+| Feature                         | Importance |
+|--------------------------------|:----------:|
+| Tenure Months                 | 0.3522     |
+| Internet Service_Fiber optic   | 0.3080     |
+| Contract_Two year             | 0.3023     |
+| Payment Method_Electronic check | 0.3019     |
+| Dependents_Yes                | 0.2485     |
 
 
 ### **K-Nearest Neighbor
