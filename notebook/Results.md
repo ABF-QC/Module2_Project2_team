@@ -12,6 +12,15 @@ The churn reason were analyzed to pinpoint the factors that pushed a client to l
 
 ![Churn Reason Distribution](../graph/ChurnReason.png)
 
+</br></br>
+
+The distribution of the 'Tenure Months' column indicated that it was going a good predictive feature.
+![TenureMonths Distribution](../graph/TenureMonths.png)
+
+</br></br>
+
+The distribution of the 'Contract' column for Churn clients indicated that it was going a good predictive feature.
+![TenureMonths Distribution](../graph/Contract.png)
 
 </br></br>
 By looking at the correlation between the various columns, we noticed that all the categorical columns that contains a category 'No internet service' is in fact a perfect replica of the columns 'Internet Service' with the category value of 'No'.
