@@ -5,7 +5,7 @@
 
 
 ## Data source
-We worked with a [dataset](../data/churn.xlsx) containing information from a fictional telco company that provided home phone and internet services to 7043 customers in California in Q3. 
+We worked with a [dataset](./data/churn.xlsx) containing information from a fictional telco company that provided home phone and internet services to 7043 customers in California in Q3. 
 
 It indicates which customers have left, stayed, or signed up for their service. Multiple important demographics are included for each customer, as well as a Satisfaction Score, Churn Score, and Customer Lifetime Value (CLTV) index.
 
@@ -17,29 +17,29 @@ Churn analysis is a method used by organizations to understand the rate at which
 
 ## Notebooks
 
-You can find all the models' notebooks in [notebook](../notebook/)
+You can find all the models' notebooks in [notebook](./notebook/)
 
 ---
 ## Data Cleaning
 
-Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](data/churn_cleaned.csv)
+Data cleaning is crucial for data analysis. The cleaned data can be found here [Cleaned Dataset](./data/churn_cleaned.xlsx)
 
 ---
 ## Analysis
 
 The churn reason were analyzed to pinpoint the factors that pushed a client to leave the company.
 
-![Churn Reason Distribution](../graph/ChurnReason.png)
+![Churn Reason Distribution](./graph/ChurnReason.png)
 
 </br></br>
 
 The distribution of the 'Tenure Months' column indicated that it was going a good predictive feature.
-![TenureMonths Distribution](../graph/TenureMonths.png)
+![TenureMonths Distribution](./graph/TenureMonths.png)
 
 </br></br>
 
 The distribution of the 'Contract' column for Churn clients indicated that it was going a good predictive feature.
-![TenureMonths Distribution](../graph/Contract.png)
+![TenureMonths Distribution](./graph/Contract.png)
 
 </br></br>
 By looking at the correlation between the various columns, we noticed that all the categorical columns that contains a category 'No internet service' is in fact a perfect replica of the columns 'Internet Service' with the category value of 'No'.
@@ -47,7 +47,7 @@ By looking at the correlation between the various columns, we noticed that all t
 Therefore, all categorical columns containing the category 'No internet service' were cleaned, with the exception of the column 'Internet Service'.
 
 
-![Correlation Heatmap](../graph/Correlation_heatmap_all.png)
+![Correlation Heatmap](./graph/Correlation_heatmap_all.png)
 
 </br></br>
 
@@ -56,7 +56,7 @@ Therefore, all categorical columns containing the category 'No internet service'
 
 Most regression models can only accept numeric values. Therefore, feature engineered is a crucial step to transform categorical columns into numerical columns.
 
-In addition, this is where we will be finding the best predictors of Price for our classification models. Four methods will be use and compared to find the best predictors: The feature engineed csv file can be find in [Feature Engineered Dataset](../data/churn_cleaned_featEng.xlsx)
+In addition, this is where we will be finding the best predictors of Price for our classification models. Four methods will be use and compared to find the best predictors: The feature engineed csv file can be find in [Feature Engineered Dataset](./data/churn_cleaned_featEng.xlsx)
 The best predictors will be used to find the best suitable regression model for the Residential Housing Rental Price accross Canada. 
 
 </br></br>
@@ -247,7 +247,7 @@ The accuracy is not the only scores that matters. As seen during this project, t
 
 In this case, the client wanted to forecast the hit event the most accurately while minimizing the missed event. Therefore, a scoring method that would have balanced the dataset and try to find the best model that tend to have 0 False Negative, while optimizing the balanced accuracy would have been the best scoring method for this project.
 
-![Confusion Matrix](../graph/tempo.png)
+![Confusion Matrix](./graph/tempo.png)
 </br></br>
 
 It is a lesson learn that a model with the most accuracy does not always provide the best forecast.
@@ -257,7 +257,7 @@ We were not able to provide a better model than the pre-existing model used to p
 
 | Balanced Model</br>DecisionTreeClassifier              | Balanced Model</br>Random Forest                  | Client pre-existing model</br> Churn Score               |
 |-----------------------|-----------------------|-----------------------|
-| ![Confusion Matrix Balanced Model](../graph/ConfusionMatrix_val_BalancedModel.png) | ![Confusion Matrix Best Model](../graph/ConfusionMatrix_val_BestModel1.png) |  ![Confusion Matrix Balanced Model](../graph/ConfusionMatrix_val_ChurnScore.png) | 
+| ![Confusion Matrix Balanced Model](./graph/ConfusionMatrix_val_BalancedModel.png) | ![Confusion Matrix Best Model](./graph/ConfusionMatrix_val_BestModel1.png) |  ![Confusion Matrix Balanced Model](./graph/ConfusionMatrix_val_ChurnScore.png) | 
 
 </br></br></br>
 <center>
