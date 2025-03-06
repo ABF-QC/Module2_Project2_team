@@ -82,7 +82,7 @@ The following performance score were calculated for each models :
 ---
 ### Step 6 : Validation of the selected Classification Models
 ---
-More detailed results can be found here [Results](Notebook/Results.md)
+More detailed results can be found here [Results](notebook/Results.md)
 
 
 The accuracy is not the only scores that matters. As seen during this project, the scoring method best suited to optimize a Classification model is really dependent on the goal that the model need to achieve.
